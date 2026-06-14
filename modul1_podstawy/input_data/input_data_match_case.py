@@ -24,3 +24,6 @@ match opcja:
         print("Wybrano opcję Wyświetl wszystkie. \n")
     case 4:
         print("Wybrno zakończenie programu. \n")
+
+
+c

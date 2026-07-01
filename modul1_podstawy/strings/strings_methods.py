@@ -63,8 +63,62 @@ print(tekst6.isalnum())
 tekst3 = "Python"
 print(tekst3.center(20, "-"))
 
-# ==================== replace() - 
+# ==================== replace()  - Zamienia fragment tekstu. ==========================================================
 print(channel_name.replace("programowania", "jazdy na nartach"))
 
-# ================== split() - 
+# ================== split() - Dzieli napis na listę. ==================================================================
 print(channel_name.split(" "))
+
+# ================== SLicing - nie jest metodą, lecz składnią języka Python, która służy do wycinania fragmentów sekwencji (np. str, list, tuple).
+# gdzie:  start – indeks początkowy (włącznie),
+#         stop – indeks końcowy (bez tego elementu),
+#         step – krok.
+
+# Slicing używany  jest do: list (list),
+#                  krotek (tuple),
+#                  tablic NumPy (ndarray)
+
+tekst_slice = "Programuj od podstaw"
+
+print(tekst_slice[0:3]) # Pobranie pierwszych 3 znaków
+
+print(tekst_slice[2:]) # Pobranie od indeksu 2 do końca
+
+print(tekst_slice[:4]) # Pobranie od początku do indeksu 4
+
+print(tekst_slice[:]) # Cały napis
+
+print(tekst_slice[-3:]) # Ostatnie 3 znaki
+
+print(tekst_slice[:-1]) # Wszystko oprócz ostatniego znaku
+
+print(tekst_slice[-1]) # Ostatni zanak
+
+print(tekst_slice[::2]) # Co drugi znak
+
+print(tekst_slice[::3]) # Co trzeci znak 
+
+print(tekst_slice[::-1]) # Odwrócenie napisu
+
+print(tekst_slice[::-2]) # odwrócenie co drugiego napisu
+
+print(tekst_slice[1:5]) # środkowa część napisu
+
+print(tekst_slice[1:]) # Usunięcie pierwszego znaku
+
+print(tekst_slice[2:]) # usuniecie dwóch pierwszych znaków
+
+plik = "raport.pdf"
+print(plik[-3:]) # wycięcie rozszrzenia pliku (pdf)
+
+plik = "raport.pdf"
+print(plik[:-4]) # Nazwa pliku bez rozszerzenia
+
+telefon = "123786908"
+print("***" + telefon[-3:]) #ukrycie części numeru telfonu
+
+
+
+
+
+

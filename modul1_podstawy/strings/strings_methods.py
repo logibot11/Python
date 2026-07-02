@@ -69,6 +69,11 @@ print(channel_name.replace("programowania", "jazdy na nartach"))
 # ================== split() - Dzieli napis na listę. ==================================================================
 print(channel_name.split(" "))
 
+# ================== len - metoda do określenia długosci stringa ========================================================
+len_string = "Specjalista"
+ile_znakow = len(len_string)
+print(f"Długość stringa wynosi - {ile_znakow}") 
+
 # ================== SLicing - nie jest metodą, lecz składnią języka Python, która służy do wycinania fragmentów sekwencji (np. str, list, tuple).
 # gdzie:  start – indeks początkowy (włącznie),
 #         stop – indeks końcowy (bez tego elementu),

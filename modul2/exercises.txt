@@ -11,8 +11,8 @@
 5. Napisz program który wyświetli wszystkie liczy pierwsze od 1 do 100
 6. Napisz program który wyświetli sumę wszystkic liczb parzystych z przedziału 1 - 100
 7. Napisz program, który policzy pole prostokata (użytkownik musi podać długości boków)
-8.Napisz program który sprawdzi czy podane imię jest imieniem męskim czy żeńskim (załóż, że imiona żeńskie kończą się na literę a)
-9.Pobierz od uzytkownika 3 liczby całkowite i uporządkuj je w kolejnosci od najmniejszej do największej)
+8. Napisz program który sprawdzi czy podane imię jest imieniem męskim czy żeńskim (załóż, że imiona żeńskie kończą się na literę a)
+9. Pobierz od uzytkownika 3 liczby całkowite i uporządkuj je w kolejnosci od najmniejszej do największej)
 10. Stwórz grę, w której wylosujesz liczbę z przedziału 1 - 100, zapiszesz tę liczbę w zmiennej, a nastepnie poprosisz użytkownika o odgadnięcie tej liczby
     Po każdej próbie wyświetlaj informację, czy liczba podana przez użytkownika jest mniejsza czy większa od wylosowanej.
     Gdy uzytkownik odgadnie liczbę zakończ grę.
